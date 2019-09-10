@@ -4,20 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
-    <script src="indexjs"></script>
     <title>Robo UP</title>
 </head>
 <body>
+    <img id="up-arrow" src="img?name=up.png" style="display: none;">
+    <img id="down-arrow" src="img?name=down.png" style="display: none;">
+    <img id="left-arrow" src="img?name=left.png" style="display: none;">
+    <img id="right-arrow" src="img?name=right.png" style="display: none;">
     <h1>Robo UP</h1>
     <select id="dropdown">
         <option value="rosto1" >Rosto 1</option>
         <option value="rosto2" >Rosto 2</option>
         <option value="rosto3" >Rosto 3</option>
     </select><br><br>
-    <button id="enviar">Enviar</button>
+    <button id="enviar">Enviar</button><br>
+    <canvas id="controllers" width="300" height="300"></canvas>
+    <!--<div>Icons made by <a href="https://www.flaticon.com/authors/lyolya" title="Lyolya">Lyolya</a> from <a href="https://www.flaticon.com/"         title="Flaticon">www.flaticon.com</a></div>-->
 </body>
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src="indexjs"></script>
 </html>
